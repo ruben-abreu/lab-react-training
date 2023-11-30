@@ -6,6 +6,8 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard/DriverCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
 
 function App() {
   return (
@@ -91,6 +93,8 @@ function App() {
           }}
         />
       </div>
+      <LikeButton />
+      <ClickablePicture img="maxence.png" imgClicked="maxence-glasses.png" />
     </div>
   );
 }
