@@ -1,0 +1,24 @@
+#facebook {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  max-width: 40%;
+}
+
+#fbprofile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.profile-info {
+  margin: 5px;
+}
