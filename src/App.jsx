@@ -14,6 +14,8 @@ import NumbersTable from './components/NumbersTable';
 import FaceBook from './components/Facebook/Facebook';
 import SignupPage from './components/SignupPage';
 
+import RGBColorPicker from './components/RGBColorPicker';
+
 function App() {
   return (
     <div className="App">
@@ -112,6 +114,7 @@ function App() {
       <NumbersTable limit={12} />
       <FaceBook />
       <SignupPage />
+      <RGBColorPicker />
     </div>
   );
 }
